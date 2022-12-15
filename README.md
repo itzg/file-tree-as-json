@@ -14,7 +14,7 @@ Usage: file-tree-as-json [-h] [--debug] [-o=FILE] PATH...
 
 ```json
 {
-  "C:\\Users\\geoff\\git\\file-tree-as-json\\src" : {
+  "C:\\projects\\file-tree-as-json\\src" : {
     "children" : [ {
       "path" : "main",
       "children" : [ {
