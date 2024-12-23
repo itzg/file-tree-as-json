@@ -9,3 +9,11 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    groups:
+      patches:
+        patterns:
+          - "*"
+        update-types:
+          - patch
+          - minor
+
