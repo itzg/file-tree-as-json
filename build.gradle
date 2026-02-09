@@ -38,7 +38,7 @@ application {
 }
 
 dependencies {
-    implementation 'ch.qos.logback:logback-classic:1.5.27'
+    implementation 'ch.qos.logback:logback-classic:1.5.28'
     implementation 'info.picocli:picocli:4.7.7'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.21.0'
 
