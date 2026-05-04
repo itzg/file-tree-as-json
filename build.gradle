@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    id "io.freefair.lombok" version "9.4.0"
+    id "io.freefair.lombok" version "9.5.0"
     // https://github.com/qoomon/gradle-git-versioning-plugin
     id 'me.qoomon.git-versioning' version '6.4.4'
     id "io.github.itzg.github-releaser" version "0.2.1"
@@ -40,7 +40,7 @@ application {
 dependencies {
     implementation 'ch.qos.logback:logback-classic:1.5.32'
     implementation 'info.picocli:picocli:4.7.7'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.21.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.21.3'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.3'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.3'
